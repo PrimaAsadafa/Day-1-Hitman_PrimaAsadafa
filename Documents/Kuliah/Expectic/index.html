@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <p class="eyebrow">YOUR SEMESTER, IN ORDER</p>
+        <h1>Study Planner</h1>
+        <p class="intro">A little more clarity for everything on your plate.</p>
+      </header>
+
+      <section class="panel" aria-label="Assignments">
+        <div class="list-heading">
+          <div>
+            <p class="eyebrow">STUDENT TASKS</p>
+            <h2>Assignments</h2>
+          </div>
+          <span id="task-count" class="count" aria-live="polite"></span>
+        </div>
+
+        <nav class="filters" aria-label="Filter assignments">
+          <button class="filter active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" data-filter="pending" aria-pressed="false">Pending</button>
+          <button class="filter" data-filter="completed" aria-pressed="false">Completed</button>
+        </nav>
+
+        <ul id="assignment-list" class="assignment-list"></ul>
+        <p id="empty-state" class="empty-state" hidden>
+          No assignments in this view. Try another filter.
+        </p>
+      </section>
+
+      <footer>One task at a time. You have got this.</footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
