@@ -33,3 +33,4 @@ Dokumentasi:
 <img width="3024" height="4032" alt="1" src="https://github.com/user-attachments/assets/9f25734b-661c-450b-a021-ef2f9a7e4988" />
 <img width="960" height="1280" alt="2" src="https://github.com/user-attachments/assets/4a0fb1af-733d-4136-aea8-f496eca0a669" />
 <img width="960" height="1280" alt="3" src="https://github.com/user-attachments/assets/3259a034-01eb-4d63-94c2-3488d8d70ab3" />
+<img width="1020" height="1280" alt="4" src="https://github.com/user-attachments/assets/93d155d6-9523-48f4-aee8-9656dd2ebf51" />
